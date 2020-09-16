@@ -1,0 +1,14 @@
+::placeholder {
+  color: gray;
+}
+
+body {
+  background-color: #00;
+}
+
+
+.example {
+  display: flex;
+  position: relative;
+  transform: translate(10, 10);
+}

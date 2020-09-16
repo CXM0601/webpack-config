@@ -1,0 +1,28 @@
+{
+  "name": "create-webpack-project-step-by-step",
+  "private": true,
+  "version": "1.0.0",
+  "description": "This is a cookbook createing a webpack project step by step",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+  },
+  "workspaces": [
+    "examples/*",
+    "prepare/*"
+  ],
+  "keywords": [
+    "webpack",
+    "eslint",
+    "babel",
+    "postcss",
+    "stylelint"
+  ],
+  "author": "Isaac Gu",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
